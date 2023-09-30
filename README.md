@@ -3,6 +3,8 @@
 # Data
 Data are collected from various subreddits pertaining to mental health and depression from 01/05/2018 to 01/05/2020.
 
+- The folder `Emotional_Profiles` contains data about textual features extracted from user texts on a monthly basis, e.g., the file `2018-05.txt` contains the emotional profiles (in terms of textual features) of users active during May 2018.
+- The folder `Emotional_Clusters` contains the cluster's centroids values across textual features. 
 - The folder `Node_Labels` contains data about the node clusters identified on a monthly basis, e.g., the file `2018-05_labels.txt` contains the list of all the users active during May 2018 together with their cluster ids.
 
    Each file has a column `node` and a column `cluster`. A user is associated to one of the four cluster ids identified in our analysis. The cluster ids `1,2,3,4` in each file correspond to the clusters referred to as `C1,C2,C3,C4` in the article. Users are anonymized such that `1000,2` in `2018-05_labels.txt` indicates that the user id `1000` belongs to the cluster id `C2` during May 2018.
